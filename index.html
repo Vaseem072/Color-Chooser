@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorChooser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="box"></div>
+        <div id="content">
+            <div>
+                <label for="val1" style="color: red;">Take Red color</label>
+                <input type="range" id="val1" min="0" max="255" step="1">
+            </div>
+            <div>
+                <label for="val2" style="color: green;">Take Green color</label>
+                <input type="range" id="val2" min="0" max="255" step="1">
+            </div>
+            <div>
+                <label for="val3" style="color: blue;">Take Blue color</label>
+                <input type="range" id="val3" min="0" max="255" step="1">
+            </div>
+            <div>
+                <h1 id="output"></h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
