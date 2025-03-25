@@ -11,7 +11,7 @@
 #box{
     width: 50%;
     height: 60vh;
-    box-shadow: 2px 2px 20px black;
+    box-shadow: 1px 1px 5px black;
  
 }
 label{
@@ -19,7 +19,7 @@ label{
     font-weight: bold;
 }
 #content{
-    padding: 20px;
+    padding: 0 0 0 40px;
     display: flex;
     row-gap: 70px;
     flex-direction: column;
